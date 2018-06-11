@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+
+body {
+    background-image: url(nyc.jpg);
+    background-repeat: no-repeat;         
+    background-color: #031F4A;
+    background-size: cover;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+    grid-auto-rows: minmax(100px, auto);
+    justify-items:stretch;
+    padding: 50px;
+    background: transparent;
+
+}
+
+.container > div {
+    background: #031F4A;
+    padding:1em;
+}
+.container > div:nth-child(odd) {
+    background: #0A3878;
+}
+
+.nested {
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap:1em;
+    /* background-color: #1D4E6C; */
+}
+/* .nested > div {
+    border: #2c0125 1px solid;
+} */
+
+.aboutme {
+    grid-column: 1/3;
+    grid-row: 1/3;
+    font-family: 'Raleway', sans-serif;
+    font-size: 38px;
+    padding: 10px;
+    /* background-color: 	#0A3878; */
+}
+.aboutmetext {
+    font-size: 15px;
+    font-family: 'Lato';
+    font-weight: 100;
+    color: #E54D5C;
+}
+
+.myname {
+    color: white;
+    margin: 0;
+}
+.webDeveloper {
+    color: #E54D5C;
+}
+.phoneIcon
+ {
+    color: #9199BA;
+}
+
+.iconContainer {
+    display:grid;
+    grid-template-columns:repeat(6, 1fr);
+    grid-auto-rows: minmax(20px, auto);
+    grid-gap:0.2em;
+    padding: 5px;
+
+}
+/* .iconContainer > div {
+    border: black 1px solid;
+} */
+
+
+.myimg {
+    height: 150px;
+    margin-top: 20px;
+    /* background-color: #023a45; */
+}
+
+
+
+.box2, 
+.box3, 
+.box4,  
+.box6,
+.headerSkills {
+    font-family: 'Raleway';
+    font-size: 20px;
+    color: #9199BA;
+    font-weight: bold;
+}
+
+.skills {
+    display:grid;
+    grid-template-columns:repeat(6, 1fr);
+    grid-auto-rows: minmax(50px, auto);
+    grid-gap:0.2em;
+    padding: 5px;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+.skills > div {
+    border: black 1px solid;
+}
+
+.fa-react {
+    color: #00C0F0;
+}
+.fa-js {
+    color: #d6d600;
+}
+.fa-css3-alt {
+    color: #38619C;
+}
+
+.fa-html5 {
+    color: #D55736;
+}
+
+@media only screen and (max-width: 768px) {
+    .container{
+      display: block;
+      width: 500px;
+    }
+    .margin-bot {
+      margin-bottom: 2px;
+    }
+
+   }
