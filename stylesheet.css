@@ -196,6 +196,11 @@ html, body {
   }
 
 @media only screen and (max-device-width: 650px) {
+  .aboutme-page, .hundredDaysOfCode, .skills-page, .projects-page {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+}
   .deskSVG {
     margin-top: 75%;
     padding: 0px;
