@@ -86,6 +86,10 @@ html, body {
     margin: 5px;
 }
 
+.skills-page {
+  background-color: #cac1b0;
+}
+
 .skills-content {
   display: flex;
   flex-direction: row;
