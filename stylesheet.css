@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Open+Sans|Raleway');
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.aboutme-page, .hundredDaysOfCode, .skills-page, .projects-page {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+}
+
+.aboutme-page {
+ background-color: #cac1b0;
+}
+
+.nestedContactContainer {
+  display: flex;
+  flex-direction: row;
+  padding-left: 15px;
+}
+
+.nestedContactContainer > div {
+  margin: 10px;
+  font-size: 30px;
+}
+
+.aboutme-content {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.deskSVG {
+  width: 80%;
+}
+
+.aboutme-text {
+  width: 45%;
+  position: absolute;
+  top: 170px;
+  right: 140px;
+  font-size: 1.8vh;
+  font-family: 'Raleway', sans-serif;
+}
+
+.header-text {
+    padding-top: 20px;
+    font-family: 'Abel', sans-serif;
+    margin: 20px;
+    font-size: 35px;
+}
+
+.nav-nested-container {
+    display: flex;
+    padding: 5px;
+}
+
+.nav-button {
+    margin: 20px;
+    margin-top: 5px;
+    background: none;
+	  color: inherit;
+    border: 1px solid black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nested-days-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    overflow: scroll;
+    list-style-type: none;
+}
+
+.img-item {
+    margin: 5px;
+}
+
+.skills-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.skills-content > li {
+  width: 10%;
+  margin: 20px;
+  padding: 20px;
+  list-style-type: none;
+}
+
+/* Modal */
+:root {
+	--modal-duration: 1s;
+	--modal-color: #000;
+  } 
+  
+  .modal-btn {
+  background: #000;
+  margin: 15px;
+  padding: 5px;
+  width: 4%;
+  height: 60%;
+	color: #fff;
+	border: 0;
+  cursor: pointer;
+  font-size: 40px;
+  font-family: 'Abel', sans-serif;
+  text-align: center;
+  }
+  
+  .modal-btn:hover {
+  color: #000;
+  background-color: #cac1b0;
+}
+  
+  .modal-container {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+  overflow: auto;
+	background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal-content {
+	margin: 10% auto;
+	width: 80%;
+	box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+	animation-name: modalopen;
+  animation-duration: var(--modal-duration);
+  font-family: 'Open Sans', sans-serif;
+  }
+  
+  .modal-header h2,
+  .modal-footer h3 {
+	margin: 0;
+  }
+  
+  .modal-header {
+	background: var(--modal-color);
+	padding: 15px;
+  color: #fff;
+  margin: 0;
+  border: 10px;
+  font-family: 'Abel', sans-serif;
+  }
+  
+  .modal-body {
+  padding: 10px 20px;
+  margin: 0;
+	background: #fff;
+  }
+  
+  .modal-footer {
+	background: var(--modal-color);
+	padding: 10px;
+	color: #fff;
+	text-align: center;
+  }
+  
+  .close-btn {
+	float: right;
+	font-size: 40px;
+	color: #fff;
+  }
+  
+  .close-btn:hover,
+  .close-btn:focus {
+	color: #000;
+	text-decoration: none;
+  cursor: pointer;
+  }
+  
+  @keyframes modalopen {
+	  from {
+	    opacity: 0;
+	  }
+	  to {
+	    opacity: 1;
+	  }
+  }
+
+@media only screen and (max-device-width: 650px) {
+  .deskSVG {
+    margin-top: 75%;
+    padding: 0px;
+
+  }
+  .aboutme-text {
+    padding-top: 40px;
+    font-size: 2.5vw;
+    font-family: 'Raleway', sans-serif;
+  }
+  .modal-btn {
+    background: #000;
+    margin: 5px;
+    padding: 5px;
+    width: 10%;
+    height: 40%;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    font-size: 5vw;
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+    }
+    .skills-content > li {
+      width: 10%;
+      margin: 10px;
+      padding: 20px;
+      list-style-type: none;
+    }
+}
+
+  
