@@ -8,7 +8,7 @@ html, body {
 .aboutme-page, .hundredDaysOfCode, .skills-page, .projects-page {
     display: flex;
     flex-direction: column;
-    height: 800px;
+    height: 1000px;
 }
 
 .aboutme-page {
