@@ -15,6 +15,18 @@ html, body {
  background-color: #cac1b0;
 }
 
+.hundredDaysOfCode {
+  background-color: #b8a8a7;
+}
+
+.skills-page {
+  background-color: #cac1b0;
+}
+
+.projects-page {
+  background-color: #b8a8a7;
+}
+
 .nestedContactContainer {
   display: flex;
   flex-direction: row;
@@ -86,10 +98,6 @@ html, body {
     margin: 5px;
 }
 
-.skills-page {
-  background-color: #cac1b0;
-}
-
 .skills-content {
   display: flex;
   flex-direction: row;
@@ -103,6 +111,7 @@ html, body {
   padding: 20px;
   list-style-type: none;
 }
+
 
 /* Modal */
 :root {
