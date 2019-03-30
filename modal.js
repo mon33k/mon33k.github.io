@@ -3,58 +3,58 @@ const dayLog = [
     buttonImgUrl: 1,
     title: 'Day 1',
     date: '3/9/2019',
-    entry: 'today I did this etc',
-    githubUrl: 'https://github.com/mon33k'
-  },
-  {
-    buttonImgUrl: 2,
-    title: 'Day 2',
-    date: '3/9/2019',
-    entry: 'today I did this etc',
-    githubUrl: 'https://github.com/mon33k'
-  },
-  {
-    buttonImgUrl: 3,
-    title: 'Day 3',
-    date: '3/9/2019',
-    entry: 'today I did this etc',
-    githubUrl: 'https://github.com/mon33k'
-  },
-  {
-    buttonImgUrl: 4,
-    title: 'Day 4',
-    date: '3/9/2019',
-    entry: 'today I did this etc',
-    githubUrl: 'https://github.com/mon33k'
-  },
-  {
-    buttonImgUrl: 5,
-    title: 'Day 3',
-    date: '3/9/2019',
-    entry: 'today I did this etc',
-    githubUrl: 'https://github.com/mon33k'
-  },
-  {
-    buttonImgUrl: 6,
-    title: 'Day 4',
-    date: '3/9/2019',
-    entry: 'today I did this etc',
-    githubUrl: 'https://github.com/mon33k'
-  },
-  {
-    buttonImgUrl: 7,
-    title: 'Day 3',
-    date: '3/9/2019',
-    entry: 'today I did this etc',
-    githubUrl: 'https://github.com/mon33k'
-  },
-  {
-    buttonImgUrl: 8,
-    title: 'Day 4',
-    date: '3/9/2019',
-    entry: 'today I did this etc',
+    entry: 'This is todays entry of what I did today',
     githubUrl: 'https://github.com/mon33k'
   }
+  // {
+  //   buttonImgUrl: 2,
+  //   title: 'Day 2',
+  //   date: '3/9/2019',
+  //   entry: 'today I did this etc',
+  //   githubUrl: 'https://github.com/mon33k'
+  // },
+  // {
+  //   buttonImgUrl: 3,
+  //   title: 'Day 3',
+  //   date: '3/9/2019',
+  //   entry: 'today I did this etc',
+  //   githubUrl: 'https://github.com/mon33k'
+  // },
+  // {
+  //   buttonImgUrl: 4,
+  //   title: 'Day 4',
+  //   date: '3/9/2019',
+  //   entry: 'today I did this etc',
+  //   githubUrl: 'https://github.com/mon33k'
+  // },
+  // {
+  //   buttonImgUrl: 5,
+  //   title: 'Day 3',
+  //   date: '3/9/2019',
+  //   entry: 'today I did this etc',
+  //   githubUrl: 'https://github.com/mon33k'
+  // },
+  // {
+  //   buttonImgUrl: 6,
+  //   title: 'Day 4',
+  //   date: '3/9/2019',
+  //   entry: 'today I did this etc',
+  //   githubUrl: 'https://github.com/mon33k'
+  // },
+  // {
+  //   buttonImgUrl: 7,
+  //   title: 'Day 3',
+  //   date: '3/9/2019',
+  //   entry: 'today I did this etc',
+  //   githubUrl: 'https://github.com/mon33k'
+  // },
+  // {
+  //   buttonImgUrl: 8,
+  //   title: 'Day 4',
+  //   date: '3/9/2019',
+  //   entry: 'today I did this etc',
+  //   githubUrl: 'https://github.com/mon33k'
+  // }
 ]
 
 
