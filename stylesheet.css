@@ -51,7 +51,7 @@ body {
   position: absolute;
   top: 170px;
   right: 140px;
-  font-size: 1.8vh;
+  font-size: 6vh;
   font-family: "Raleway", sans-serif;
 }
 
@@ -96,7 +96,8 @@ body {
   margin: 5px;
 }
 
-.skills-content {
+.skills-content,
+.project-content {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -215,12 +216,12 @@ body {
     height: 800px;
   }
   .deskSVG {
-    margin-top: 75%;
+    margin-top: 20%;
     padding: 0px;
   }
   .aboutme-text {
     padding-top: 40px;
-    font-size: 2.5vw;
+    font-size: 4vw;
     font-family: "Raleway", sans-serif;
   }
   .modal-btn {
