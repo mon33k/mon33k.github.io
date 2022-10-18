@@ -26,6 +26,15 @@ body {
   background-color: #b8a8a7;
 }
 
+/* .project-content > div > img {
+  width: 20vw;
+} */
+
+.project-1 {
+  width: 17vw;
+  height: 20vh;
+}
+
 .nestedContactContainer {
   display: flex;
   flex-direction: row;
